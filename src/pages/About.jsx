@@ -244,7 +244,7 @@ export default function About() {
               >
                 <img
                   src="/assets/images/college-principal.jpeg"
-                  alt="Dr. Harish Baheti"
+                  alt="Dr. Deepak Kumar Singhal"
                   style={{
                     width: "100%",
                     height: "100%",
@@ -262,7 +262,7 @@ export default function About() {
                     fontSize: "1.25rem",
                   }}
                 >
-                  College Principal
+                  Dr. Deepak Kumar Singhal
                 </h3>
 
                 <span
