@@ -13,6 +13,7 @@ import Facilities from "../pages/Facilities";
 import Activities from "../pages/Activities";
 import Faculty from "../pages/Faculty";
 import News from "../pages/News";
+import MUHSMandate from "../pages/MUHSMandate";
 import Feedback from "../pages/Feedback";
 import Contact from "../pages/Contact";
 import Events from "../pages/events/Events";
@@ -35,6 +36,7 @@ export default function AppRoutes() {
       <Route path="/events/:id" element={<EventGallery />} />
       <Route path="/faculty" element={<Faculty />} />
       <Route path="/news" element={<News />} />
+      <Route path="/muhs-mandate" element={<MUHSMandate />} />
       <Route path="/feedback" element={<Feedback />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="*" element={<Home />} />

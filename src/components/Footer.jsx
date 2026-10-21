@@ -31,10 +31,10 @@ export default function Footer() {
             <Phone size={16} /> (07252) 232371
           </p>
           <p>
-            <Phone size={16} /> 9022409461 · 9158550742
+            <Phone size={16} /> 9022409461
           </p>
           <p>
-            <Mail size={16} /> maaganganursing@gmail.com
+            <Mail size={16} /> maaganganursingschool@gmail.com
           </p>
         </div>
       </div>

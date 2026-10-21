@@ -136,7 +136,7 @@ export const programs = {
 
 export const facilities = [
   [
-    "Campus & Administrative Block",
+    "Child Health Nursing Lab",
     "campus-1.jpg",
     "A welcoming administrative and academic environment.",
   ],
@@ -156,16 +156,16 @@ export const facilities = [
     "A focused space for individual study and preparation.",
   ],
   [
-    "Clinical Experience",
+    "Foundation of Nursing Lab",
     "clinical-1.jpg",
     "Practical exposure that connects classroom learning with care.",
   ],
-  ["Hostel", "campus-2.jpg", "Residential facilities for students on campus."],
-  [
-    "Canteen / Mess",
-    "activity-6.jpg",
-    "Campus dining and student gathering space.",
-  ],
+  // ["Hostel", "campus-2.jpg", "Residential facilities for students on campus."],
+  // [
+  //   "Canteen / Mess",
+  //   "activity-6.jpg",
+  //   "Campus dining and student gathering space.",
+  // ],
   [
     "Computer Lab",
     "computer-lab.jpg",
@@ -186,42 +186,42 @@ export const facilities = [
     "activity-1.jpg",
     "Practical learning connected with nutrition and health.",
   ],
-  [
-    "Paediatric Lab",
-    "clinical-1.jpg",
-    "Practice space supporting paediatric nursing learning.",
-  ],
+  // [
+  //   "Paediatric Lab",
+  //   "clinical-1.jpg",
+  //   "Practice space supporting paediatric nursing learning.",
+  // ],
   [
     "OBGY Lab",
     "clinical-1.jpg",
     "Practical learning for obstetric and gynaecological care.",
   ],
+  // [
+  //   "Pre Clinical Lab",
+  //   "lecture.jpg",
+  //   "Foundational practice before clinical placement.",
+  // ],
   [
-    "Pre Clinical Lab",
-    "lecture.jpg",
-    "Foundational practice before clinical placement.",
-  ],
-  [
-    "Seminar Hall",
+    "Auditorium",
     "activity-2.jpg",
     "A venue for seminars, sessions and academic events.",
   ],
-  [
-    "Play Ground",
-    "campus-2.jpg",
-    "Space for recreation and student activities.",
-  ],
-  ["Parking", "campus-1.jpg", "Convenient campus parking area."],
-  [
-    "Transport",
-    "campus-1.jpg",
-    "Transport facility listed by the institution.",
-  ],
-  [
-    "Medical",
-    "community-lab.jpg",
-    "Medical support facility listed by the institution.",
-  ],
+  // [
+  //   "Play Ground",
+  //   "campus-2.jpg",
+  //   "Space for recreation and student activities.",
+  // ],
+  // ["Parking", "campus-1.jpg", "Convenient campus parking area."],
+  // [
+  //   "Transport",
+  //   "campus-1.jpg",
+  //   "Transport facility listed by the institution.",
+  // ],
+  // [
+  //   "Medical",
+  //   "community-lab.jpg",
+  //   "Medical support facility listed by the institution.",
+  // ],
 ];
 export const activities = [
   ["Student learning activity", "activity-2.jpg"],
@@ -293,14 +293,6 @@ export const docs = [
     "B.Sc. Nursing__Maharashtr Govt GR.pdf",
   ],
   [
-    "B.Sc. Nursing – MNC Permission 2023-24",
-    "B.Sc. Nursing__MNC Permission 2023-24.pdf",
-  ],
-  [
-    "B.Sc. Nursing – MNC Permission 2024-25",
-    "B.Sc. Nursing__MNC Permission 2024-25.pdf",
-  ],
-  [
     "B.Sc. Nursing – MUHS Affiliation 2023-24",
     "B.Sc. Nursing__MUHS Affiliation 2023-24.pdf",
   ],
@@ -311,6 +303,14 @@ export const docs = [
   [
     "B.Sc. Nursing – MUHS Affiliation 2025-26",
     "B.Sc. Nursing__MUHS Affiliation 2025-26.pdf",
+  ],
+  [
+    "B.Sc. Nursing – MNC Permission 2023-24",
+    "B.Sc. Nursing__MNC Permission 2023-24.pdf",
+  ],
+  [
+    "B.Sc. Nursing – MNC Permission 2024-25",
+    "B.Sc. Nursing__MNC Permission 2024-25.pdf",
   ],
   [
     "Post Basic B.Sc. Nursing – Maharashtra Govt. GR",

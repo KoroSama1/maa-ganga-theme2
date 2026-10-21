@@ -73,7 +73,7 @@ export default function Messages() {
             <div className="messageHead">
               <div className="initial">P</div>
               <div>
-                <span className="eyebrow">PRINCIPAL DESK</span>
+                <span className="eyebrow">DIRECTOR DESK</span>
                 <h2>Dear Readers & Learner</h2>
               </div>
             </div>

@@ -116,9 +116,9 @@ export default function About() {
           <div
             style={{
               display: "grid",
-              gridTemplateColumns: "repeat(2, minmax(0, 1fr))",
+              gridTemplateColumns: "repeat(3, minmax(0, 1fr))",
               gap: "24px",
-              maxWidth: "820px",
+              maxWidth: "1000px",
               margin: "28px auto 0",
             }}
           >
@@ -141,7 +141,7 @@ export default function About() {
                 }}
               >
                 <img
-                  src="/assets/images/director-saraj-baheti.JPG"
+                  src="/assets/images/saraj-baheti.jpg"
                   alt="Dr. Saraj Baheti"
                   style={{
                     width: "100%",
@@ -169,7 +169,7 @@ export default function About() {
                     display: "block",
                   }}
                 >
-                  DIRECTOR
+                  PRESIDENT
                 </span>
               </div>
             </div>
@@ -193,7 +193,7 @@ export default function About() {
                 }}
               >
                 <img
-                  src="/assets/images/president-harish-baheti.JPG"
+                  src="/assets/images/harish-baheti.jpg"
                   alt="Dr. Harish Baheti"
                   style={{
                     width: "100%",
@@ -221,7 +221,57 @@ export default function About() {
                     display: "block",
                   }}
                 >
-                  PRESIDENT
+                  DIRECTOR
+                </span>
+              </div>
+            </div>
+            <div
+              style={{
+                background: "#fff",
+                borderRadius: "6px",
+                overflow: "hidden",
+                textAlign: "center",
+                boxShadow: "0 8px 30px rgba(0, 0, 0, 0.06)",
+              }}
+            >
+              <div
+                style={{
+                  width: "100%",
+                  aspectRatio: "4 / 4.5",
+                  overflow: "hidden",
+                  background: "#f4f4f4",
+                }}
+              >
+                <img
+                  src="/assets/images/college-principal.jpeg"
+                  alt="Dr. Harish Baheti"
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "cover",
+                    objectPosition: "center top",
+                    display: "block",
+                  }}
+                />
+              </div>
+
+              <div style={{ padding: "14px 20px 16px" }}>
+                <h3
+                  style={{
+                    margin: "0 0 7px",
+                    fontSize: "1.25rem",
+                  }}
+                >
+                  College Principal
+                </h3>
+
+                <span
+                  className="eyebrow"
+                  style={{
+                    display: "block",
+                  }}
+                >
+                  Principal
                 </span>
               </div>
             </div>
@@ -248,7 +298,7 @@ export default function About() {
             }}
           >
             <img
-              src="/assets/images/about-2.JPG"
+              src="/assets/images/college.jpg"
               alt="Maa Ganga College of Nursing building"
               style={{
                 width: "100%",

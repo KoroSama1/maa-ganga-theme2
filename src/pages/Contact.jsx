@@ -72,7 +72,7 @@ export default function Contact() {
                 <p>
                   (07252) 232371
                   <br />
-                  9022409461 · 9158550742
+                  9022409461
                 </p>
               </div>
             </div>
@@ -83,7 +83,7 @@ export default function Contact() {
               </span>
               <div>
                 <span className="eyebrow">EMAIL</span>
-                <p>maaganganursing@gmail.com</p>
+                <p>maaganganursingschool@gmail.com</p>
               </div>
             </div>
           </div>

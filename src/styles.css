@@ -2121,7 +2121,7 @@ body {
 .heroOverlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg,rgba(2,35,49,.92),rgba(3,54,68,.64),rgba(3,54,68,.18));
+  background: linear-gradient(90deg, rgba(2,35,49,.65), rgba(3,54,68,.50), rgba(3,54,68,.18));
   z-index: 2;
 }
 .heroContent {

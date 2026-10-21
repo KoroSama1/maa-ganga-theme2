@@ -48,7 +48,7 @@ export default function Conduct() {
         <div className="container docGrid two">
           <a
             className="docCardNew"
-            href={DOC + "Code of conduct For-Students.pdf"}
+            href={DOC + "new_stud_code_of_conduct.pdf"}
             target="_blank"
             rel="noreferrer"
           >
@@ -65,7 +65,7 @@ export default function Conduct() {
           </a>
           <a
             className="docCardNew"
-            href={DOC + "Code of conduct For Staff.pdf"}
+            href={DOC + "new_Staff_Code_of_Conduct.pdf"}
             target="_blank"
             rel="noreferrer"
           >

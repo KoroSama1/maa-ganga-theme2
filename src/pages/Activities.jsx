@@ -52,7 +52,7 @@ export default function Activities() {
               <img src={IMG + img} />
               <figcaption>
                 <span>Activity {String(i + 1).padStart(2, "0")}</span>
-                <strong>{label}</strong>
+                {/* <strong>{label}</strong> */}
               </figcaption>
             </figure>
           ))}

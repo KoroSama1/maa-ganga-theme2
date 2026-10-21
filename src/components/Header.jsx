@@ -113,6 +113,7 @@ export default function Header() {
                 ]}
               />
               <NavLink to="/news">News & Notices</NavLink>
+              <NavLink to="/muhs-mandate">MUHS Mandate</NavLink>
               <NavLink to="/feedback">Feedback</NavLink>
               <NavLink to="/contact">Contact</NavLink>
             </nav>
