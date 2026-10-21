@@ -121,7 +121,13 @@ export default function MUHSMandate() {
                 </button>
 
                 {isExpanded && (
-                  <div style={{ padding: "0 22px 20px" }}>
+                  <div
+                    style={{
+                        padding: "0 22px 20px",
+                        maxHeight: "340px",
+                        overflowY: "auto",
+                    }}
+                  >
                     {files.map((file) => {
                       const url =
                         `/assets/docs/muhs/${year}/${encodeURIComponent(file)}`;
