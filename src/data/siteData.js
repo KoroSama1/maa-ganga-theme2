@@ -147,7 +147,7 @@ export const facilities = [
   ],
   [
     "Library",
-    "skills.jpg",
+    "campus-2.jpg",
     "Resources and reference material for nursing education.",
   ],
   [

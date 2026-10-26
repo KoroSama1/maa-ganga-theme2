@@ -142,7 +142,7 @@ export default function About() {
               >
                 <img
                   src="/assets/images/saraj-baheti.jpg"
-                  alt="Dr. Saraj Baheti"
+                  alt="Dr. Saroj Baheti"
                   style={{
                     width: "100%",
                     height: "100%",
@@ -160,7 +160,7 @@ export default function About() {
                     fontSize: "1.25rem",
                   }}
                 >
-                  Dr. Saraj Baheti
+                  Dr. Saroj Baheti
                 </h3>
 
                 <span
