@@ -2425,3 +2425,60 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   .heroButtons { width:100%; }
   .heroButtons .btn { width:100%; }
 }
+
+
+/* for hospital tab  modern theme*/
+
+/* Modern Hospital Gallery */
+.hospitalGalleryGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+  margin-top: 32px;
+}
+
+.hospitalGalleryCard {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+  border-radius: 14px;
+  background: #eaf1f2;
+  box-shadow: 0 5px 18px rgba(16, 48, 60, 0.08);
+  border: 1px solid rgba(16, 48, 60, 0.07);
+  text-decoration: none;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.hospitalGalleryImage {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.hospitalGalleryCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 14px 30px rgba(16, 48, 60, 0.16);
+}
+
+.hospitalGalleryCard:hover .hospitalGalleryImage {
+  transform: scale(1.06);
+}
+
+@media (max-width: 900px) {
+  .hospitalGalleryGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+  }
+}
+
+@media (max-width: 520px) {
+  .hospitalGalleryGrid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+}

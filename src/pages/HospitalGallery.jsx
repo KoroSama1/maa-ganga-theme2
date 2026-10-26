@@ -13,6 +13,9 @@ const hospitalImages = [
   "IMG_3396.JPG",
   "IMG_3394.JPG",
   "IMG_3390.JPG",
+  "IMG_3387.JPG",
+  "IMG_3378.JPG",
+  "IMG_3377.JPG",
 ];
 
 export default function HospitalGallery() {
@@ -27,20 +30,13 @@ export default function HospitalGallery() {
       <section className="section">
         <div className="container">
           <div className="sectionTitle">
-            <span>
+            {/* <span>
               <Images size={16} /> Hospital Facilities
-            </span>
+            </span> */}
             <h2>A closer look at our facilities</h2>
           </div>
 
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))",
-              gap: "24px",
-              marginTop: "28px",
-            }}
-          >
+          <div className="hospitalGalleryGrid">
             {hospitalImages.map((image, index) => {
               const imageUrl = `/assets/images/hospital-gallery/${image}`;
 
@@ -50,36 +46,14 @@ export default function HospitalGallery() {
                   href={imageUrl}
                   target="_blank"
                   rel="noreferrer"
-                  style={{
-                    display: "block",
-                    overflow: "hidden",
-                    borderRadius: "8px",
-                    background: "#fff",
-                    boxShadow: "0 5px 20px rgba(0,0,0,0.08)",
-                    textDecoration: "none",
-                  }}
+                  className="hospitalGalleryCard"
                 >
                   <img
                     src={imageUrl}
                     alt={`Hospital facility ${index + 1}`}
                     loading="lazy"
-                    style={{
-                      display: "block",
-                      width: "100%",
-                      height: "230px",
-                      objectFit: "cover",
-                      transition: "transform 0.3s ease",
-                    }}
+                    className="hospitalGalleryImage"
                   />
-                  <div
-                    style={{
-                      padding: "12px 14px",
-                      color: "#17465b",
-                      fontWeight: 600,
-                    }}
-                  >
-                    Hospital Facility {String(index + 1).padStart(2, "0")}
-                  </div>
                 </a>
               );
             })}
