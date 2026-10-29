@@ -160,12 +160,12 @@ export const facilities = [
     "clinical-1.jpg",
     "Practical exposure that connects classroom learning with care.",
   ],
-  // ["Hostel", "campus-2.jpg", "Residential facilities for students on campus."],
-  // [
-  //   "Canteen / Mess",
-  //   "activity-6.jpg",
-  //   "Campus dining and student gathering space.",
-  // ],
+  ["Hostel", "campus-2.jpg", "Residential facilities for students on campus."],
+  [
+    "Canteen / Mess",
+    "activity-6.jpg",
+    "Campus dining and student gathering space.",
+  ],
   [
     "Computer Lab",
     "computer-lab.jpg",
